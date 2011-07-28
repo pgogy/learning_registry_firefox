@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<!-- Load style definitions -->
+
+<!-- Setup UI augmentations -->
+<overlay id="ffcc_browser"
+	 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <!-- Control the main browser window behavior -->
+  <script type="text/javascript"
+	  src="chrome://firefox_lr/content/browser.js"></script>
+	
+  <toolbox id="navigator-toolbox">
+	
+	<toolbar id="TutTB-Toolbar" toolbarname="Tutorial Toolbar" class="chromeclass-toolbar" context="toolbar-context-menu" hidden="false" persist="hidden">
+	
+		<toolbarbutton id="TutTB-Web-Button" tooltiptext="Search the Web"
+               label="Learning Registry Search" oncommand="page_process.init(content.document);" />
+
+	
+	</toolbar>
+
+  </toolbox>
+  
+</overlay>

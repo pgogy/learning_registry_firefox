@@ -1,0 +1,7 @@
+# The "ccffext" is chosen to be the internal identifier of the extension
+
+# Main data
+content firefox_lr content/
+
+# Changes to the UI: the main window is altered, as well as the "Page Info" frame
+overlay chrome://browser/content/browser.xul chrome://firefox_lr/content/browser.xul
